@@ -1,0 +1,27 @@
+html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    background-color: #e1e2ff;
+    text-align: center;
+}
+
+.header, .footer{
+  padding: 30px;
+  background-color: #e1e1e2;
+  font-size: 30px;
+}
+
+.grid {
+  display: grid;
+  padding: 60px;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+div {
+  float; left;  
+  padding: 10px;
+  border-bottom:5px solid #CCC;
+}
